@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Enter your name"
+        android:hint="@string/hint_edit_view_main_activity"
         android:textSize="30sp" />
 
     <EditText
@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30sp"
-        android:text="GO TO NEXT ACTIVITY"
+        android:text="@string/button_goToSubActivity_main_activity"
         android:onClick="goToSubActivityOnClick"
         android:id="@+id/goToSubActivityButton"/>
 

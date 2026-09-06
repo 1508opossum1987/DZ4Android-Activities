@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30sp"
-        android:text="GO BACK"
+        android:text="@string/button_goToMain_sub_activity"
         android:onClick="goToMainActivityOnClick"/>
 
 </LinearLayout>
